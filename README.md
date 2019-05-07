@@ -12,11 +12,19 @@ It is recommended that before you actually apply the test instructions to your p
 
 * Before we can set up Travis, we must configure the project repo to protect the master branch.
 
+* If you have not created a repo (for your project, or just to test this out)
+
+* Create a dummy README.md or some test files.
+
+* Push those test files to your remote copy of _master_
+
 * Navigate to the repo's page, then click the "Settings" tab.
 
 * Select "Branches" from the left sidebar.
 
-* Under "Branch protection rules", choose "master" from the dropdown.
+* Under "Branch protection rules", click "Add Rule"
+
+* For "Branch name pattern" , choose "master". The page should display ""
 
 * Check off the following options:
 
