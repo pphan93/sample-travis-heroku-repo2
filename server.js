@@ -1,3 +1,4 @@
+/* server.js main file */
 const express = require('express');
 
 const app = express();

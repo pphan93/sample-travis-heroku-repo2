@@ -64,3 +64,11 @@ Travis is a CI service which simply means it an automated process. A typical wor
 * A commit is pushed to GitHub
 
 * Travis build is triggered and it checks if the test is passing or failing.
+
+Create a remote reference to your repo:
+
+$ heroku git:remote -a rails-test-app-article
+
+
+cat ~/.netrc
+heroku auth:token
