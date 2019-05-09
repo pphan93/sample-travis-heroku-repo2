@@ -2,21 +2,30 @@
   "name": "sample-travis-heroku-repo",
   "version": "1.0.0",
   "description": "In this activity we will set up the project repo with Travis CI to ensure that linting passes on all changes before they can be merged into master.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint server.js && mocha ./tests/index-spec.js",
+    "start": "node server.js",
+    "lint": "eslint"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eapostol/sample-travis-heroku-repo.git"
   },
-  "author": "",
+  "author": "Edward J. Apostol",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/eapostol/sample-travis-heroku-repo/issues"
   },
   "homepage": "https://github.com/eapostol/sample-travis-heroku-repo#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "mocha": "^6.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
   }
 }
