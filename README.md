@@ -53,3 +53,14 @@ It is recommended that before you actually apply the test instructions to your p
 * From the "Select repositories" dropdown, choose your project repo.
 
 * Click the "Install" button to complete the process.
+
+### Part 3: Live Demo
+
+The .travis.yml file instructs Travis on what to build. the language option can be whatever language your app is running in and the "node_js": "stable" indicates Travis should use a stable version of node. You can also cache your node_modules directory on Travis to avoid installing all dependencies every time a build is triggered but rather it updates packages that has newer versions.
+
+
+Travis is a CI service which simply means it an automated process. A typical workflow with Travis ad GitHub goes like this:
+
+* A commit is pushed to GitHub
+
+* Travis build is triggered and it checks if the test is passing or failing.
