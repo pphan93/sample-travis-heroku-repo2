@@ -72,3 +72,7 @@ $ heroku git:remote -a rails-test-app-article
 
 cat ~/.netrc
 heroku auth:token
+
+
+To setup travis yml file ( after installing travis cli
+travis setup heroku
