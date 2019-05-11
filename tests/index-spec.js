@@ -9,4 +9,5 @@ describe('test', () => {
     it('this simple test should return a string', () => {
         expect('Test CI with Travis').to.equal('Test CI with Travis');
     });
+    process.exit();
 });
