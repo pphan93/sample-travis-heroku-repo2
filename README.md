@@ -137,13 +137,18 @@ The instructions to install the Travis CLI are at
 
 <https://github.com/travis-ci/travis.rb#installation>
 
+The results should look similar to the image below.
+
+![Screenshot_2019-05-12 -9.36.28-PM.png](images/Screenshot_2019-05-12%20-9.36.28-PM.png)
+
+
 Additional notes:
 
 Windows Users don't have Ruby installed natively. So these users have to install Ruby first and can do so via RubyInstaller, at
 
 <https://rubyinstaller.org/>
 
-Mac Users should install Homebrew, the package manager for OS X. The one-line instruction to install Homebrew can be found at
+Mac Users should install Homebrew (it's a backup option, to update the operating system or Ruby), the package manager for OS X. The one-line instruction to install Homebrew can be found at
 
 <https://brew.sh/>
 
