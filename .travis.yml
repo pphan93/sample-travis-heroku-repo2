@@ -8,7 +8,7 @@ cache:
 deploy:
   provider: heroku
   api_key:
-    secure: D0eBm5nm/dTzXDZ+alAfX8EwJydKDezPrmlvA9ufcmAeEzkwZpHG6libQUa+fxcrHMK0Zpw3sTDoLgJAlcd434o04iZZWeqPk9IULlNhguwqkndy9oboX34yHJJL1waYjs6PY9r3J3WmcHyJ7uk5rscGjoaKQgGgxPPkEzO3Kq+IXlT2RG2kVaSlXctncpYM+NM1ra1CyJ23m5QV1ntROi9sgIlIrv8IUh31C3KxHizaolWw2DpfYb/rZNicmsJNWiWLcF6Vb32pppOx7PLt1tgmrlV8gWGKKL4IMwhDkuV/FCN5H9meb0StVWgueIb6xB8NvKsmeMdrnVLPI6Ih3wZ8gY4pIqSdtOKU6MSlzFI9PXwfu7WULBcgPkNZwzIbhYvVFUBcA7u1opMwWNycZZtVwzrNUlWbdU06LoJAFF2kmWBSKr9cSYq/tSTg7a3j3FYFqqLkTx+Tn6o49Wk+raUqW7M2SMGB/GdRHPxI/ksAQtDr+5BkR9a1s7bVFt2OVCQ8FIxE0IcTZp8aPNd87qXqNMbdBgx/+xm0GZ4ZIdNT6V8FA/AWm6BkzzIRanRkgi+viocFkxRlWQ8MeWYTegj0FH/iaiSANVlft+p0h0VjJrBhpMsM9mzXyNy9aFconcJOwfCLrRPdVgJub1TE2Bhc0aVbdCLFVWSx9kiVIoM=
+    secure: {PUT_YOUR_OWN_API_KEY_HERE}
   app: tranquil-atoll-64381
   on:
     repo: eapostol/sample-travis-heroku-repo
