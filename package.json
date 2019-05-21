@@ -4,7 +4,7 @@
   "description": "In this activity we will set up the project repo with Travis CI to ensure that linting passes on all changes before they can be merged into master.",
   "main": "server.js",
   "scripts": {
-    "test": "npm run eslint server.js && mocha ./tests/index-spec.js --exit",
+    "test": "npm run lint server.js && mocha ./tests/index-spec.js --exit",
     "start": "node server.js",
     "lint": "eslint"
   },
